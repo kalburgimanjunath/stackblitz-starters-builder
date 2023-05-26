@@ -1,0 +1,22 @@
+{
+  "name": "stackblitz-starters-jbsl8l",
+  "version": "0.0.0",
+  "private": true,
+  "dependencies": {
+    "grapesjs": "0.21.1",
+    "grapesjs-mjml": "^1.0.4",
+    "grapesjs-preset-newsletter": "1.0.1",
+    "grapesjs-preset-webpage": "1.0.2",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "react-scripts": "latest"
+  }
+}
