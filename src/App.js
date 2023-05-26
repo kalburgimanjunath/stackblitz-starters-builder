@@ -4,7 +4,7 @@ import 'grapesjs/dist/css/grapes.min.css';
 import grapesjs from 'grapesjs';
 import plugin1 from 'grapesjs-preset-webpage';
 import plugin2 from 'grapesjs-preset-newsletter';
-import plugin3 from 'grapesjs-mjml';
+// import plugin3 from 'grapesjs-mjml';
 
 export default function App() {
   useEffect(() => {
@@ -12,7 +12,7 @@ export default function App() {
       container: '#gjs',
       components: '<div class="txt-red">Hello world!</div>',
       style: '.txt-red{color: red}',
-      plugins: [plugin1, plugin2, plugin3],
+      plugins: [plugin1, plugin2],
       // blockManager: {
       //   appendTo: '#blocks',
       //   blocks: [
